@@ -1,0 +1,15 @@
+
+<!-- <div id="c1">
+  card-container works!
+  <img src="../assets/img/logo1.jpg" alt="logo image" height="50px" width="50px">
+</div> -->
+
+<div class="container">
+  <app-card
+    *ngFor="let track of tracks"
+    [track]="track"
+    (addToWishList)="addToWishList($event)"
+    [statusCode]="statusCode"
+    [url]='track["image"][2]["#text"]'
+  ></app-card>
+</div>

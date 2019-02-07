@@ -1,0 +1,48 @@
+.head {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+img {
+  float: left;
+  width: 10%;
+  height: 100px;
+
+}
+a {
+  float: right;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  right: 10px;
+  //top: 0px;
+  bottom: 10px;
+  color: white;
+  font-style:oblique;
+}
+h1 {
+  float: left;
+  font-size: 50px;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  text-transform: uppercase;
+  color:whitesmoke;
+  font-style: oblique;
+  text-align: center;
+}
+#search
+{
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left:1000px;
+    height: 50px;
+    
+}
+
